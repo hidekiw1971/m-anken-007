@@ -235,6 +235,7 @@ select::-ms-expand {
 }
 @media screen and (min-width: 768px) {
   .footer__li {
+    padding-bottom: 0rem;
     padding-right: 2rem;
   }
 }
@@ -243,6 +244,32 @@ select::-ms-expand {
   padding-right: 0rem;
   padding-bottom: 0px;
   padding-bottom: 0rem;
+}
+.footer__li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+@media screen and (min-width: 768px) {
+  .footer__li a {
+    position: relative;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer__li a::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 0.125rem;
+    position: absolute;
+    bottom: -0.25rem;
+    left: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer__li a:hover::after {
+    border: 1px solid #ffea2e;
+  }
 }
 @media screen and (min-width: 768px) {
   .footer__nav--inner {
