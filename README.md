@@ -1,10 +1,14 @@
 # compornent（共通部品）
 
 ## イメージ画像
+<img width="395" alt="image" src="https://user-images.githubusercontent.com/99580997/163677336-4334449d-9c1c-408b-87d5-f507ede7c6c4.png">
+<img width="785" alt="image" src="https://user-images.githubusercontent.com/99580997/163677351-46231539-3eff-4d75-aea2-05173cd9e2c6.png">
+<img width="911" alt="image" src="https://user-images.githubusercontent.com/99580997/163677363-e840a767-1ade-447c-b42a-d34e6371f3e0.png">
+
 
 ## 概要
 
-- ｘｘｘ
+- codepus模擬案件（footer）
 - https://www.notion.so/000_web-component-index-c4b399010bf342e9b4e2ed516cf9c730
 
 ## 仕様
@@ -21,20 +25,23 @@
 ## 使い方
 
 - 「copy start」から「copy end」をコピペ。
-- css: src -> module -> xxx をコピペ。
+- css: src -> module -> `footer` をコピペ。
 
 ## w3c html チェック結果
 
 - https://validator.w3.org/nu/
+- <img width="749" alt="image" src="https://user-images.githubusercontent.com/99580997/163677399-421ca109-6b7a-42c2-bb47-6797098e37b4.png">
+
 
 ## w3c css チェック結果
 
 - https://jigsaw.w3.org/css-validator/
+- <img width="801" alt="image" src="https://user-images.githubusercontent.com/99580997/163677410-c244542e-0900-4e5e-bbed-b08d2ae22444.png">
+
 
 ## portfolio url:
 
-- https://c-0000.wtb.cfbx.jp/
-- https://css-md-0000.wtb.cfbx.jp/
+- https://c-0055.wtb.cfbx.jp/
 
 ## 参考にしたサイト
 
