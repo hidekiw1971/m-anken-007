@@ -1,0 +1,7 @@
+@use "global" as *;
+.footer__nav {
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

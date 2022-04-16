@@ -1,0 +1,30 @@
+@use "global" as *;
+.footer__title--inner {
+  display: none;
+  @include mq(md) {
+    // size
+    display: block;
+    max-width: rem(70);
+    width: 100%;
+    max-height: rem(39);
+    width: 100%;
+    // ajustment -> `.footer__title--inner::before`
+    position: relative;
+  }
+  @include mq(xl) {
+  }
+}
+
+.footer__title--inner::before {
+  @include mq(md) {
+    content: "";
+    // size
+    display: block;
+    width: 100%;
+    padding-top: 55.715%;
+    // decoration
+    // background-color: #f00;
+  }
+  @include mq(xl) {
+  }
+}

@@ -1,0 +1,20 @@
+@use "global" as *;
+.footer__title--img {
+  @include mq(md) {
+    // size
+    display: block;
+    width: rem(70);
+    height: rem(39);
+    // decoration
+    background-image: url(/images/CodeUps@3x.png);
+    background-size: rem(70) rem(39);
+    background-repeat: no-repeat;
+    // ajustment
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  }
+  @include mq(xl) {
+  }
+}
