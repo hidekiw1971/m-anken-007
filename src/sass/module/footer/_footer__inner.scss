@@ -17,6 +17,11 @@
     width: 100%;
     // ajustment
     margin: 0 auto;
+    // space
+    padding-top: rem(32);
+    padding-right: rem(32);
+    padding-bottom: rem(26);
+    padding-left: rem(32);
   }
   @include mq(xl) {
   }
