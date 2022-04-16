@@ -1,8 +1,8 @@
 @use "global" as *;
-.footer__ul {
+.footer__nav--inner {
   @include mq(md) {
-    // ajustment
-    display: flex;
+    // size
+    display: inline-block;
   }
   @include mq(xl) {
   }
